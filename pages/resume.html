@@ -4,11 +4,16 @@
 		<title>Setsoto Hlohlomi</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified CSS  and Java Script-->
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
 
 		<!--Link to google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
@@ -24,7 +29,33 @@
 
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar sticky-top  navbar-expand-lg navbar-dark bg-primary">
+		    <div class="container text-dark">
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
+		            aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span>
+		        </button>
+
+		        <div class="collapse navbar-collapse" id="myNavbar">
+		            <ul style="font-size: 16px" class="nav navbar-nav">
+	                    <li class="nav-item">
+	                        <a class="nav-link"  href="../index.html">Home</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="../index.html#achievements">Achievements</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="../index.html#interests">Interests</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="#">Resume</a>
+	                    </li>
+
+		             </ul>
+		        </div>
+		    </div>
+		</nav>
+		<!--nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div> 
 					<ul class="nav navbar-nav">
@@ -33,13 +64,13 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
-		<div class="container" >
+		</navbar-expand-lg			-->
+		<div class="container py-5" >
 			<div class="row">
 				<h1 align="center">Resume</h1><hr>
 				<img src="../images/pdficon.png" width="50px" height="50px">
-				View CV<a href="../docs/SetsotoHlohlomiResumeUpdated.pdf" target="_blank"> Here </a>
-				or <a href="../docs/SetsotoHlohlomiResumeUpdated.pdf" download> Download </a> PDF Format
+				View CV <a href="../docs/SetsotoHlohlomiResumeUpdated.pdf" target="_blank"> Here </a>
+				or <a href="../docs/SetsotoHlohlomiResumeUpdated.pdf" download>  Download  </a>  PDF Format
 				<br><hr><br>
 			</div>
 			<div class="row">
@@ -476,7 +507,11 @@
 			</div>
 			
 		</div>
-
+		<!-- Optional JavaScript -->
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	</body>
 
 </html>
